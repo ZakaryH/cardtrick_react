@@ -15,4 +15,4 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-static/css/* linguist-vendored
+*.css linguist-vendored
