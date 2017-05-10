@@ -1,0 +1,479 @@
+.btn-primary {
+    margin-top: 45px;
+}
+.card-btn {
+    margin-top: 5rem;
+    background-color: #ffc102;
+    padding: 1rem;
+    border: none;
+    border: 3px solid transparent;
+    font-size: 10px;
+    color: #000;
+    transition: 300ms;
+}
+@media only screen and (min-width: 770px) {
+    .card-btn {
+        font-size: 16px;
+    }
+}
+.card-btn:active,
+.card-btn:focus,
+.card-btn:hover {
+    border: 3px solid transparent;
+    color: #000;
+    background-color: #ffc102;
+}
+[class*='stack'] {
+    z-index: 1;
+}
+[class*='spread'] {
+    z-index: 10;
+}
+.stack-1 {
+    -webkit-animation: row-1-stacked-mobile 200ms linear forwards;
+    animation: row-1-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-1 {
+        -webkit-animation: row-1-stacked-tablet 200ms linear forwards;
+        animation: row-1-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-1 {
+        -webkit-animation: row-1-stacked-small 200ms linear forwards;
+        animation: row-1-stacked-small 200ms linear forwards;
+    }
+}
+.stack-2 {
+    -webkit-animation: row-2-stacked-mobile 200ms linear forwards;
+    animation: row-2-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-2 {
+        -webkit-animation: row-2-stacked-tablet 200ms linear forwards;
+        animation: row-2-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-2 {
+        -webkit-animation: row-2-stacked-small 200ms linear forwards;
+        animation: row-2-stacked-small 200ms linear forwards;
+    }
+}
+.stack-3 {
+    -webkit-animation: row-3-stacked-mobile 200ms linear forwards;
+    animation: row-3-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-3 {
+        -webkit-animation: row-3-stacked-tablet 200ms linear forwards;
+        animation: row-3-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-3 {
+        -webkit-animation: row-3-stacked-small 200ms linear forwards;
+        animation: row-3-stacked-small 200ms linear forwards;
+    }
+}
+.stack-4 {
+    -webkit-animation: row-4-stacked-mobile 200ms linear forwards;
+    animation: row-4-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-4 {
+        -webkit-animation: row-4-stacked-tablet 200ms linear forwards;
+        animation: row-4-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-4 {
+        -webkit-animation: row-4-stacked-small 200ms linear forwards;
+        animation: row-4-stacked-small 200ms linear forwards;
+    }
+}
+.stack-5 {
+    -webkit-animation: row-5-stacked-mobile 200ms linear forwards;
+    animation: row-5-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-5 {
+        -webkit-animation: row-5-stacked-tablet 200ms linear forwards;
+        animation: row-5-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-5 {
+        -webkit-animation: row-5-stacked-small 200ms linear forwards;
+        animation: row-5-stacked-small 200ms linear forwards;
+    }
+}
+.stack-6 {
+    -webkit-animation: row-6-stacked-mobile 200ms linear forwards;
+    animation: row-6-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-6 {
+        -webkit-animation: row-6-stacked-tablet 200ms linear forwards;
+        animation: row-6-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-6 {
+        -webkit-animation: row-6-stacked-small 200ms linear forwards;
+        animation: row-6-stacked-small 200ms linear forwards;
+    }
+}
+.stack-7 {
+    -webkit-animation: row-7-stacked-mobile 200ms linear forwards;
+    animation: row-7-stacked-mobile 200ms linear forwards;
+}
+@media only screen and (min-width: 500px) {
+    .stack-7 {
+        -webkit-animation: row-7-stacked-tablet 200ms linear forwards;
+        animation: row-7-stacked-tablet 200ms linear forwards;
+    }
+}
+@media only screen and (min-width: 770px) {
+    .stack-7 {
+        -webkit-animation: row-7-stacked-small 200ms linear forwards;
+        animation: row-7-stacked-small 200ms linear forwards;
+    }
+}
+@-webkit-keyframes row-1-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 0em;
+    }
+}
+@keyframes row-1-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 0em;
+    }
+}
+@-webkit-keyframes row-2-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 5em;
+    }
+}
+@keyframes row-2-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 5em;
+    }
+}
+@-webkit-keyframes row-3-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 10em;
+    }
+}
+@keyframes row-3-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 10em;
+    }
+}
+@-webkit-keyframes row-4-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 15em;
+    }
+}
+@keyframes row-4-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 15em;
+    }
+}
+@-webkit-keyframes row-5-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 20em;
+    }
+}
+@keyframes row-5-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 20em;
+    }
+}
+@-webkit-keyframes row-6-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 25em;
+    }
+}
+@keyframes row-6-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 25em;
+    }
+}
+@-webkit-keyframes row-7-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 30em;
+    }
+}
+@keyframes row-7-stacked-mobile {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 30em;
+    }
+}
+@-webkit-keyframes row-1-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 0em;
+    }
+}
+@keyframes row-1-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 0em;
+    }
+}
+@-webkit-keyframes row-2-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 4.2em;
+    }
+}
+@keyframes row-2-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 4.2em;
+    }
+}
+@-webkit-keyframes row-3-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 8.4em;
+    }
+}
+@keyframes row-3-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 8.4em;
+    }
+}
+@-webkit-keyframes row-4-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 12.600000000000001em;
+    }
+}
+@keyframes row-4-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 12.600000000000001em;
+    }
+}
+@-webkit-keyframes row-5-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 16.8em;
+    }
+}
+@keyframes row-5-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 16.8em;
+    }
+}
+@-webkit-keyframes row-6-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 21em;
+    }
+}
+@keyframes row-6-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 21em;
+    }
+}
+@-webkit-keyframes row-7-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 25.200000000000003em;
+    }
+}
+@keyframes row-7-stacked-tablet {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 25.200000000000003em;
+    }
+}
+@-webkit-keyframes row-1-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 0em;
+    }
+}
+@keyframes row-1-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 0em;
+    }
+}
+@-webkit-keyframes row-2-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 4.7em;
+    }
+}
+@keyframes row-2-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 4.7em;
+    }
+}
+@-webkit-keyframes row-3-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 9.4em;
+    }
+}
+@keyframes row-3-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 9.4em;
+    }
+}
+@-webkit-keyframes row-4-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 14.100000000000001em;
+    }
+}
+@keyframes row-4-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 14.100000000000001em;
+    }
+}
+@-webkit-keyframes row-5-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 18.8em;
+    }
+}
+@keyframes row-5-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 18.8em;
+    }
+}
+@-webkit-keyframes row-6-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 23.5em;
+    }
+}
+@keyframes row-6-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 23.5em;
+    }
+}
+@-webkit-keyframes row-7-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 28.200000000000003em;
+    }
+}
+@keyframes row-7-stacked-small {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 28.200000000000003em;
+    }
+}

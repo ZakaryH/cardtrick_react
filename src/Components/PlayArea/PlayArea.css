@@ -1,0 +1,147 @@
+.Clubs {
+    color: #222;
+}
+.Diamonds {
+    color: #fc4349;
+}
+.Hearts {
+    color: #fc4349;
+}
+.Spades {
+    color: #222;
+}
+
+.reveal-name, .reveal-suit {
+    font-size: 4.236em;
+    line-height: 1;
+}
+.reveal-suit {
+    font-weight: 800;
+}
+
+.reveal-of {
+    font-size: 2.618em;
+    font-weight:300;
+}
+
+.fade-1 {
+    -webkit-animation: fadeIn 2.33s both ease-in;
+    animation: fadeIn 2.33s both ease-in;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.fade-2{
+    -webkit-animation: fadeIn 2.33s both ease-in;
+    animation: fadeIn 2.33s both ease-in;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.fade-3 {
+    -webkit-animation: fadeIn 2.33s both ease-in;
+    animation: fadeIn 2.33s both ease-in;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.fade-4 {
+    -webkit-animation: fadeIn 2.33s both ease-in;
+    animation: fadeIn 2.33s both ease-in;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.textShadowIn {
+    -webkit-animation: textShadowIn 3.33s ease-in forwards;
+    animation: textShadowIn 3.33s ease-in forwards;
+}
+.fadeInCustom {
+    -webkit-animation: fadeInCustom 3.4s both linear;
+    animation: fadeInCustom 3.4s both linear;
+}
+
+@-webkit-keyframes fadeInCustom {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    97% {
+        opacity: 0.005;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInCustom {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    97% {
+        opacity: 0.005;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes miniFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes miniFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes textShadowIn {
+    from {
+        color: transparent;
+    }
+    to {
+        color: #270c56;
+    }
+}
+@keyframes textShadowIn {
+    from {
+        color: transparent;
+    }
+    to {
+        color: #270c56;
+    }
+}

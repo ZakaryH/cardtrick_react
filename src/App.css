@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+  color: #eee;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	font-size: 2.618em;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 120px;
+  max-width: 100%;
+  background-image: url("./images/magic_header_mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:350px;
+  width:315px;
+  display: inline-block;
+}
+.App-header {
+  padding: 20px;
+  color: white;
+}
+@media only screen and (min-width: 770px) {
+  .App-logo{
+    height: 225px;
+    width: 800px;
+    background-image: url("./images/magic_header.svg");
+  }
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.absolute-centered {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  -webkit-transform: translateX(50%) translateY(50%);
+  -ms-transform: translateX(50%) translateY(50%);
+  transform: translateX(50%) translateY(50%);
+}
+
+.play-area {
+  margin-bottom: 4em;
+}
+@media only screen and(min-width: 770px) {
+  .play-area {
+    margin-bottom: 0;
+  }
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./fonts/Cinzel-700/Cinzel-700.eot');
+  src: url('./fonts/Cinzel-700/Cinzel-700.eot?#iefix') format('embedded-opentype'),
+  local('Cinzel-Bold'),
+  local('Cinzel-700'),
+  url('./fonts/Cinzel-700/Cinzel-700.woff2') format('woff2'),
+  url('./fonts/Cinzel-700/Cinzel-700.woff') format('woff'),
+  url('./fonts/Cinzel-700/Cinzel-700.ttf') format('truetype'),
+  url('./fonts/Cinzel-700/Cinzel-700.svg#Cinzel') format('svg');
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/Cinzel-regular/Cinzel-regular.eot');
+  src: url('./fonts/Cinzel-regular/Cinzel-regular.eot?#iefix') format('embedded-opentype'),
+  local('Cinzel-Regular'),
+  local('Cinzel-regular'),
+  url('./fonts/Cinzel-regular/Cinzel-regular.woff2') format('woff2'),
+  url('./fonts/Cinzel-regular/Cinzel-regular.woff') format('woff'),
+  url('./fonts/Cinzel-regular/Cinzel-regular.ttf') format('truetype'),
+  url('./fonts/Cinzel-regular/Cinzel-regular.svg#Cinzel') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/Crimson-Text-regular/Crimson-Text-regular.eot');
+  src: url('./fonts/Crimson-Text-regular/Crimson-Text-regular.eot?#iefix') format('embedded-opentype'),
+  local('Crimson Text'),
+  local('Crimson-Text-regular'),
+  url('./fonts/Crimson-Text-regular/Crimson-Text-regular.woff2') format('woff2'),
+  url('./fonts/Crimson-Text-regular/Crimson-Text-regular.woff') format('woff'),
+  url('./fonts/Crimson-Text-regular/Crimson-Text-regular.ttf') format('truetype'),
+  url('./fonts/Crimson-Text-regular/Crimson-Text-regular.svg#CrimsonText') format('svg');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 700;
+  font-style: normal;
+  src: url('./fonts/Crimson-Text-700/Crimson-Text-700.eot');
+  src: url('./fonts/Crimson-Text-700/Crimson-Text-700.eot?#iefix') format('embedded-opentype'),
+  local('Crimson Text Bold'),
+  local('Crimson-Text-700'),
+  url('./fonts/Crimson-Text-700/Crimson-Text-700.woff2') format('woff2'),
+  url('./fonts/Crimson-Text-700/Crimson-Text-700.woff') format('woff'),
+  url('./fonts/Crimson-Text-700/Crimson-Text-700.ttf') format('truetype'),
+  url('./fonts/Crimson-Text-700/Crimson-Text-700.svg#CrimsonText') format('svg');
+}
+
+@font-face {
+  font-family: 'Limelight';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/Limelight-regular/Limelight-regular.eot');
+  src: url('./fonts/Limelight-regular/Limelight-regular.eot?#iefix') format('embedded-opentype'),
+  local('Limelight'),
+  local('Limelight-regular'),
+  url('./fonts/Limelight-regular/Limelight-regular.woff2') format('woff2'),
+  url('./fonts/Limelight-regular/Limelight-regular.woff') format('woff'),
+  url('./fonts/Limelight-regular/Limelight-regular.ttf') format('truetype'),
+  url('./fonts/Limelight-regular/Limelight-regular.svg#Limelight') format('svg');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./fonts/Lato-300/Lato-300.eot');
+  src: url('./fonts/Lato-300/Lato-300.eot?#iefix') format('embedded-opentype'),
+  local('Lato Light'),
+  local('Lato-300'),
+  url('./fonts/Lato-300/Lato-300.woff2') format('woff2'),
+  url('./fonts/Lato-300/Lato-300.woff') format('woff'),
+  url('./fonts/Lato-300/Lato-300.ttf') format('truetype'),
+  url('./fonts/Lato-300/Lato-300.svg#Lato') format('svg');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/Lato-regular/Lato-regular.eot');
+  src: url('./fonts/Lato-regular/Lato-regular.eot?#iefix') format('embedded-opentype'),
+  local('Lato Regular'),
+  local('Lato-regular'),
+  url('./fonts/Lato-regular/Lato-regular.woff2') format('woff2'),
+  url('./fonts/Lato-regular/Lato-regular.woff') format('woff'),
+  url('./fonts/Lato-regular/Lato-regular.ttf') format('truetype'),
+  url('./fonts/Lato-regular/Lato-regular.svg#Lato') format('svg');
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/Parisienne-regular/Parisienne-regular.eot');
+  src: url('./fonts/Parisienne-regular/Parisienne-regular.eot?#iefix') format('embedded-opentype'),
+  local('Parisienne'),
+  local('Parisienne-regular'),
+  url('./fonts/Parisienne-regular/Parisienne-regular.woff2') format('woff2'),
+  url('./fonts/Parisienne-regular/Parisienne-regular.woff') format('woff'),
+  url('./fonts/Parisienne-regular/Parisienne-regular.ttf') format('truetype'),
+  url('./fonts/Parisienne-regular/Parisienne-regular.svg#Parisienne') format('svg');
+}
+
+@font-face {
+  font-family: 'Forum';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/Forum-regular/Forum-regular.eot');
+  src: url('./fonts/Forum-regular/Forum-regular.eot?#iefix') format('embedded-opentype'),
+  local('Forum'),
+  local('Forum-regular'),
+  url('./fonts/Forum-regular/Forum-regular.woff2') format('woff2'),
+  url('./fonts/Forum-regular/Forum-regular.woff') format('woff'),
+  url('./fonts/Forum-regular/Forum-regular.ttf') format('truetype'),
+  url('./fonts/Forum-regular/Forum-regular.svg#Forum') format('svg');
+}
+

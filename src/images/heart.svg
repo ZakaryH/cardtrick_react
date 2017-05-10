@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="72"
+   height="72"
+   viewBox="0 0 72.000002 72.000002"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="heart.svg"
+   inkscape:export-filename="C:\Users\Zak\Documents\designs\expo_sign\spade.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="-30.094894"
+     inkscape:cy="28.59155"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="36.04982,61.93498"
+       orientation="1,0"
+       id="guide4152" />
+    <sodipodi:guide
+       position="37.198662,25.189733"
+       orientation="0,1"
+       id="guide4154" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-980.36218)">
+    <g
+       transform="matrix(0.14786429,0,0,0.14786429,-12.918297,982.55884)"
+       id="g4"
+       style="fill-opacity:1;fill:#fc2649">
+      <title
+         id="title6">Layer 1</title>
+      <g
+         id="layer1-8"
+         style="fill-opacity:1;fill:#fc2649">
+        <path
+           style="fill-opacity:1;fill:#fc2649"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="4"
+           id="path7"
+           d="m 222.41571,22.145874 c -66.24001,0 -119.99995,53.76001 -119.99995,119.999996 0,134.75553 135.93315,170.08728 228.56245,303.30805 87.57422,-132.40338 228.5625,-172.85459 228.5625,-303.30805 0,-66.239986 -53.75989,-119.999996 -120,-119.999996 -48.04791,0 -89.40161,28.370422 -108.5625,69.1875 -19.1608,-40.817078 -60.5145,-69.1875 -108.5625,-69.1875 z" />
+      </g>
+    </g>
+  </g>
+</svg>

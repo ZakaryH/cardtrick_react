@@ -1,0 +1,38 @@
+ul.instructions {
+	margin: 0;
+	padding: 1.5em 0 2em 0;
+	letter-spacing: 2px;
+	font-size: 1.3em;
+	list-style: none;
+}
+@media only screen and (min-width: 770px) {
+	ul.instructions {
+		font-size: 1.1em;
+	}
+}
+@media only screen and (min-width: 990px) {
+	ul.instructions {
+		font-size: 1.3em;
+	}
+}
+ul.instructions li {
+	padding-bottom: 1em;
+	font-weight: 300;
+}
+ul.instructions li:after {
+	content: '';
+	display: block;
+	border-bottom: 1px solid #555;
+	padding-top: 1em;
+	width: 66%;
+	margin: 0 auto;
+}
+ul.instructions li:before {
+	position: absolute;
+	left: 35px;
+	color: #ffc102;
+}
+ul.instructions li:last-child:after {
+	content: '';
+	display: none;
+}
