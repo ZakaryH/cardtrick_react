@@ -16,4 +16,5 @@ Just a fun project for me to start learning React and to show off some of my abi
 - CSS animations
 - Troubleshooting (there was a lot of it)
 - Translating a concept between... frameworks in this case
+- Building and deploying an app
 
